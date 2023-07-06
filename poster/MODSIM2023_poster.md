@@ -205,7 +205,7 @@ Furthermore, the interaction between rainfall and past soil moisture is mostly s
 
 Figure 3 shows the spatial variability in the rainfall effect intercepts and the variance of the residuals. These broadly pick up the variation in soil, with coarser sandier soils on the northern side (and in WW) and deeper clay soils on the southern side in WE.  Further work must be done to fully account for the spatial variability in the model, including for the residuals which were also found to be heavy-tailed. 
 
-The relevance of the framework is that it is interpretable, quantifies modelling uncertainty, can be easily extended to include more variables, and serves as a model for other environmental monitoring networks. Future work will include quantifying comparing with generalised additive models to capture non-linear effects and incorporating spatial more spatial information (potentially using Gaussian Processes).
+The relevance of the framework is that it is interpretable, quantifies modelling uncertainty, can be easily extended to include more variables, and serves as a model for other environmental monitoring networks. Future work will include quantifying comparing with generalised additive models to capture non-linear effects and incorporating more spatial information (potentially using Gaussian Processes).
 
 <!-- Code/Refs/Thanks/Funding - small section -->
 ###
