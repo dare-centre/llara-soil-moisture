@@ -120,7 +120,8 @@ then for the base model with no interaction on the rainfall effect
 $$
 \begin{aligned}
 \beta_{[g]} = \mathcal{N}(\alpha_{[s,tr]}, \tau_{[s,tr]}) \quad \text{for } R,\space trend,\space AR1\\[1em]
-\alpha_{[s,tr]} \sim N(0,2) \quad \text{for } R,\space trend,\space AR1
+\alpha_{[s,tr]} \sim N(0,2) \quad \text{for } R,\space trend,\space AR1\\[1em]
+\tau_{[s,tr]} \sim Exp(1) \quad \text{for } R,\space trend,\space AR1
 \end{aligned}
 $$
 
@@ -146,7 +147,7 @@ $$
 | $\beta_{r0} + SM_{t-1} \beta_{r1}$ | $0.58 \space (\pm 0.11)$ | 32 | 25 | 4 |
 
 
-The model adequately reproduces the observations with a mean Brier Skill Score (against a baseline of persistence) of 0.58 across the gauges (Table 1). The inclusion improvement of the model when including an interaction of $SM_{t-1}$ in the rainfall effect ($\beta_R$) shows the importance of antecendent soil moisture conditions in modelling change.
+The model adequately reproduces the observations with a mean Brier Skill Score (against a baseline of persistence) of 0.58 across the gauges (Table 1). The improvement of the model when including an interaction of $SM_{t-1}$ in the rainfall effect ($\beta_R$) shows the importance of antecendent soil moisture conditions in modelling change.
 
 <!-- End main column 1 -->
 </div>
@@ -185,7 +186,7 @@ The model adequately reproduces the observations with a mean Brier Skill Score (
 
 <br>
 
-The treatment sites show slightly reduced responsiveness to rainfall (more apparent at WE), though there is much greater variation in the rainfall effect between site WE and WW (Figure 2a). Treatment sites tend to show slower drying rates (again more apparent at WE), but the variability between sites is still much greater between sites than treatments (Figure 2b).
+The treatment sites show slightly reduced responsiveness to rainfall (more apparent at WE), though there is much greater variation in the rainfall effect between site WE and WW (Figure 2a). Treatment sites tend to show slower drying rates (again more apparent at WE), but the variability between sites is still much greater between treatments (Figure 2b).
 
 Furthermore, the interaction between rainfall and past soil moisture is mostly small or negative suggesting that higher previous soil moisture leads to less change in soil moisture with rainfall. In other words drier soils infiltrate more water. The lack of difference observed between the treatments could simply be related to the fact that the treatments were only established 16 months before. 
 
